@@ -29,5 +29,11 @@ namespace proyectoPrueba
 			// TODO: Add constructor code after the InitializeComponent() call.
 			//
 		}
+		
+		void Button1Click(object sender, EventArgs e)
+		{
+			operaciones OP= new operaciones();
+			OP.Show();
+		}
 	}
 }
